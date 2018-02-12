@@ -1,0 +1,122 @@
+/* breakpoints */
+
+/* mobile */
+@media (max-width:739px){
+    /* menu */
+    .menu-nav {
+        float:none!important;
+        clear: both;
+        text-align: center;
+    }
+
+    a.menu-logo{
+        text-align: center;
+        margin:0 auto!important;
+        float:none!important;
+    }
+
+    /* intro */
+    .intro{
+        padding:40px 0;
+    }
+
+    /* sobre */
+    .sobre-container{
+        max-width: 300px!important;
+    }
+
+    .sobre-item{
+        width:300px!important;
+        margin:0!important;
+    }
+
+    /* produtos */
+    .produtos-container{
+        max-width:300px!important;
+    }
+
+    .produtos-item{
+        margin: 10px auto 10px auto!important;
+    }
+
+    /* locais */
+    .locais{
+        max-width: 300px!important;
+    }
+    .locais-item img{
+        width:300px!important;
+    }
+    .locais-item > div, .locais-item img {
+        width:300px!important;
+        margin:0!important;
+    }
+
+    /* assine */
+
+    .assine-container{
+        max-width: 300px!important;
+    }
+    .assine > div > div, .assine form{
+        width: 340px!important;
+        margin:10px 0 10px 0!important;
+    }
+
+    /* footer */
+    .footer-container{
+        max-width: 300px!important;
+    }
+    .footer p {
+        margin:0!important;
+        float:none!important;
+    }
+    .footer img {
+        float:none!important;
+        margin-top:10px!important;
+    }
+}
+
+
+/* tablete */
+
+@media(min-width:740px) and (max-width:980px){
+
+    /* sobre */
+    .sobre-container{
+        max-width:720px!important;
+    }
+
+    .sobre-item{
+        width: 340px!important;
+    }
+
+    /*produtos */
+    .produtos-container{
+        max-width: 720px!important;
+    }
+
+    .produtos-item{
+        width:220px!important;
+    }
+
+    /* locais */
+    .locais{
+        max-width:720px!important;
+    }
+
+    .locais-item > div, .locais-item img {
+        width:340px!important;
+    }
+
+    /* assine */
+    .assine-container{
+        max-width:720px!important;
+    }
+    .assine > div > div {
+        width:340px!important;
+    }
+
+    .assine form {
+        width:340px!important;
+    }
+
+}
